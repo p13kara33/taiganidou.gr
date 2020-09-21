@@ -1,0 +1,20 @@
+body{
+	min-height: 300vh;
+	background: linear-gradient(141deg, #ffd7c8 0%, #ffc4ae 51%, #ffb294 75%, #ffa07a);
+}
+
+.header_section {
+  margin-top: 57px;
+}
+
+h1{
+	font-size: 6.5vw;
+	color: #fff8dc;
+	font-family: 'Play', sans-serif;
+	line-height: 200px;
+	height: 200px;
+	letter-spacing: 0.8em;
+	font-weight: 900;
+	text-align: center;
+	text-transform: uppercase;
+}

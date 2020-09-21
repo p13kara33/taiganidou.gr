@@ -1,0 +1,318 @@
+body {
+  /*width: 100vw;*/
+  font-family: 'Open Sans', sans-serif !important;
+  scroll-behavior: smooth;
+  min-height: 300vh;
+  margin-top: 0px; 
+  margin-bottom: 0px; 
+  margin-left: 0px; 
+  /*margin-right: -10%;*/
+  padding: 0;
+  overflow-x: hidden !important;
+  background: linear-gradient(141deg, #fffaf0 0%, #bcdfeb 51%, #fffaf0 75%);
+  text-align: center;
+  /*background-image: linear-gradient(to top, #a12e00 0%,  #ffa07a 100%);*/
+}
+
+.headSection video{
+  width: 100vw;
+  height: auto;
+  z-index: -2 !important;
+  margin-left: -10px;
+  margin-top: -20px;
+}
+
+.row{
+  overflow: hidden;
+}
+
+/*border*/
+.my_border{
+  position: fixed;
+  border: 2px solid #cccccc;
+  width: 80%;
+  height: 60%;
+  margin-left: 10%;
+  margin-top: 10%;
+  margin-bottom: 150px;
+  z-index: 4;
+}
+
+.not_my_border{
+  border: 0px solid #cccccc !important;
+}
+
+.diss{
+ visibility: hidden !important;
+}
+
+@media screen and (max-width: 768px){
+  .my_border{
+    position: fixed;
+    border: 2px solid #cccccc;
+    width: 80%;
+    height: 40%;
+    /*margin-left: 10%;*/
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 150px;
+    z-index: 4;
+  }
+}
+
+@media screen and (max-width: 550px){
+  .my_border{
+    width: 80%;
+    height: 30%;
+  }
+}
+
+@media screen and (max-width: 400px){
+  .my_border{
+    width: 80%;
+    height: 25%;
+  }
+}
+
+@media screen and (max-width: 340px){
+  .my_border{
+    width: 80%;
+    height: 20%;
+  }
+}
+
+.carousel{
+  text-align: center;
+  display: inline-block;
+  max-width: 75%;
+  height: auto;
+}
+
+.headSection img{
+  z-index: -3;
+}
+
+/*titles*/
+.ml12{
+  font-size: 4.9vw !important;
+  color: white !important;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 900 !important;
+  text-align: center;
+  text-transform: uppercase !important;
+  z-index: 10 !important
+}
+
+.headerH1{
+  color: #bcdfeb !important;
+  letter-spacing: .1em !important;
+  text-align: center;
+  opacity: 1 !important;
+}
+
+.abHead{
+  text-align: left !important;
+  font-size: 8vw !important;
+  color: #2f4f4f !important;
+  letter-spacing: 0.7em !important;
+  margin-left: -1.4% !important;
+}
+
+.prHead{
+  text-align: left !important;
+  font-size: 8vw !important;
+  color: #2f4f4f !important;
+  letter-spacing: .1em !important;
+  margin-left: -2% !important;
+}
+
+.methHead{
+  text-align: left !important;
+  font-size: 8.4vw !important;
+  color: #2f4f4f !important;
+  letter-spacing: .2em !important;
+  margin-left: -2% !important;
+}
+
+.tmHead{
+  text-align: left !important;
+  font-size: 8vw !important;
+  color: #2f4f4f !important;
+  letter-spacing: 0.8em !important;
+  margin-left: -2% !important;  
+}
+
+.eduHead{
+  text-align: left !important;
+  font-size: 8vw !important;
+  color: #2f4f4f !important;
+  letter-spacing: .43em !important;
+  margin-left: -2% !important;    
+}
+
+.neaHead{
+  text-align: left !important;
+  font-size: 8vw !important;
+  color: #2f4f4f !important;
+  letter-spacing: 2em !important;
+  margin-left: 19% !important;    
+}
+
+.mlHead{
+  text-align: center !important;
+  font-size: 8vw !important;
+  color: #2f4f4f !important;
+  letter-spacing: 0.1em !important;
+  /*margin-left: -1% !important;      */
+}
+
+/*.everySection h1*/
+
+hr{
+  opacity: 0;
+  padding-top: 20%;
+  /*border: 3px solid red;*/
+}
+
+.everySection img{
+  position: relative;
+  width: 50%;
+  height: auto;
+  left: 20%;
+  right: 25%;
+  top: 20%;
+  bottom: 20%;
+  transition: all 0.5s;
+  margin-left: 5% ;
+  z-index: 5 !important;
+  /*opacity: 0.5;*/
+}
+
+@media screen and (max-width: 768px){
+  .everySection img{
+    position: relative;
+    width: 70%;
+    height: auto;
+    left: 15%;
+    right: 15%;
+    top: 20%;
+    bottom: 20%;
+    transition: all 0.5s;
+    margin: 0 auto ; 
+    /*opacity: 0.5;*/
+  }
+}
+
+.everySection h2{
+  font-size: 4vw;
+  text-align: center;
+  color: #333333;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.everySection span{
+  color: #595959;
+  font-weight: 600;
+}
+
+
+.everySection p{
+  margin-left: 25%;
+  color: black;
+  font-size: 17px !important;
+  text-align: left !important;
+  vertical-align: middle !important;
+  /*text-shadow: -0px -0px 0 #f2f2f2, 0.1px -0.1px 0 #f2f2f2, -0.1px 0.1px 0 #f2f2f2, 0.1px 0.1px 0 #338ca7;*/
+  font-weight: 600;
+  text-decoration: none !important;
+}
+
+.everySection a:hover{
+  text-decoration: none !important;
+}
+
+
+.loveSection {
+  position: relative;
+    width: 90% !important;
+    height: auto;
+    left: 15%;
+    right: 15%;
+    top: 20%;
+    bottom: 20%;
+    transition: all 0.5s;
+    margin-left: -4%;
+  z-index: 5 !important;
+}
+
+@media screen and (max-width: 768px){
+  .loveSection{
+    position: relative;
+    width: 90% !important;
+    height: auto;
+    left: 15%;
+    right: 15%;
+    top: 20%;
+    bottom: 20%;
+    transition: all 0.5s;
+    margin-left: -0.5%;
+    /*margin: 0 auto !important; */
+  }
+}
+
+/*contanct Section*/
+
+.contactSection{
+  background-color: #338ca7;
+  color: #f2f2f2;
+}
+
+.contactSection a{
+  color: #f2f2f2;
+}
+
+.noBullets{
+  list-style-type: none;
+}
+
+.contactSection a:hover{
+  color: #ffa07a;
+  text-decoration: none;
+}
+
+li{
+  text-align: center !important;
+  font-size: 1.2em;
+}
+
+.map {
+  height: 30vh;
+  width: 30vw;
+}
+
+.linkSection {
+  background-color: #f2f2f2;
+}
+
+/*Full screen IMG on click*/
+.FS{
+  position: relative !important;
+  width: 100vw !important;
+  height: auto !important;
+  left: 0% !important;
+  right: 0% !important;
+  top: 0% !important;
+  bottom: 0% !important;
+  transition: all 0.5s !important;
+  margin: 0 auto !important; 
+  transition: 1.5s !important;
+  z-index: -10 !important;
+}
+
+.bCL{
+  color: white !important;
+  z-index: 100 !important;
+  opacity: 1 !important;
+}
+

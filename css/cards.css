@@ -1,0 +1,107 @@
+// font stuff
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,300,600,700,900);
+
+
+.no-touch a.btn:hover {
+  /*background: lighten(#0096a0, 2.5);*/
+  box-shadow: 0px 8px 2px 0 rgba(0, 0, 0, 0.075);
+  transform: translateY(-2px);
+  transition: all 0.25s 0s ease-out;
+}
+
+.no-touch a.btn:active,
+a.btn:active {
+  background: darken(#0096a0,2.5);
+  box-shadow: 0 1px 0px 0 rgba(255,255,255,0.25);
+  transform: translate3d(0,1px,0);
+  transition: all 0.025s 0s ease-out;
+}
+
+div.cards {
+  margin: 80px auto;
+  max-width: 960px;
+  text-align: center;
+}
+
+div.card {`
+  background: white;
+  display: inline-block;
+  margin: 8px;
+  max-width: 300px;
+  perspective: 1000;
+  position: relative;
+  text-align: left;
+  transition: all 0.3s 0s ease-in;
+  width: 300px;
+  z-index: 1;
+}
+
+ .card__image{
+    width: 300px !important;
+    height: 225px !important;
+  }
+  
+.card__image-holder {
+  background: rgba(0,0,0,0.1);
+  height: 0;
+  padding-bottom: 75%;
+}
+
+div.card-title {
+  background: white;
+  padding: 6px 15px 10px;
+  position: relative;
+  z-index: 0;
+ }
+
+a.toggle-info {
+  border-radius: 32px;
+  height: 32px;
+  padding: 0;
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  width: 32px;
+  background-color:  #0096a0;
+ }
+
+.closed{
+  position: absolute;
+  color: white;
+  font-size: 25px;
+  left: 7px;
+  top: 4px;
+}
+
+    
+h3 {
+  font-size: 23px;
+  font-weight: 700;
+  letter-spacing: -0.05em;
+  margin: 0;
+  padding: 0;
+}
+
+#ger{
+  font-size: 21px ;
+}
+small {
+  display: block;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+}
+
+.card-description{
+  display: none;
+}
+
+.opened{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    left: 7px;
+    top: 2px;
+    transform: rotate(180deg);  
+    }
+
