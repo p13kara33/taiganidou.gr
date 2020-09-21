@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/my_nav.css"> -->
+    <link rel="stylesheet" type="text/css" href="assets/css/menu.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/coolslides.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="https://static.fontawesome.com/css/fontawesome-app.css">
+
+    <link rel="stylesheet" type="text/css" href="https://pro.fontawesome.com/releases/v5.2.0/css/all.css">
+
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:400,700">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&display=swap" rel="stylesheet">
+
+
+    <title>Diadrasi</title>
+    <link rel="icon" type="image/png" href="assets/imgs/logo.png">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2542/_colors_1.scss">
+    <!-- <link rel="stylesheet" type="text/css" href="css/menu.css"> -->
+  
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+
+
+    
+
+
+  </head>
+
+  <body onclick="showCoords(event)">
+
+   <div class="overlay-navigation">
+      <nav role="navigation">
+        <ul>
+          <li><a href="index.html" onclick="closeNav()" data-content="Εδώ ξεκινάει το ταξίδι">Αρχικη</a></li>
+          <li><a href="aboutUs.html" onclick="closeNav()" data-content="Ελατε να γνωριστούμε">Ποιοι Ειμαστε</a></li>
+          <li><a href="prior.html" onclick="closeNav()" data-content="Οι στόχοι μας">Προτεραιοτητες</a></li>
+          <li><a href="methodology.html" onclick="closeNav()" data-content="Η μέθοδος μας">Μεθοδολογια</a></li>
+          <li><a href="tmimata.html" onclick="closeNav()" data-content="Οι τάξεις μας">Τμηματα</a></li>
+          <li><a href="edu.html" onclick="closeNav()" data-content="Η εκπαίδευση">Εκπαιδευτικα Εγαστηρια</a></li>
+          <li><a href="index.html#fLove" onclick="closeNav()" data-content="Μόνο οι καλύτεροι">Mutual Love</a></li>
+          <li><a href="index.html#contact" onclick="closeNav()" data-content="Μη διστάσετε">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+  <div class="txtCntr d-none d-lg-block">
+    <div class="my_border position-fixed">
+        <h1 id="firstHeader" class="ml12 bC"></h1>
+        <p id="h1"></p>
+    </div>
+  </div>
+
+    <div class=" d-block d-lg-none">
+      <div class="my_border position-absolute">
+        <h6 class=" text-uppercase d-block d-lg-none headerH1"><br>Καλως ηρθατε στο ταξιδι!</h6>
+    </div>
+  </div>
+
+  <section class="headSection" id="fHead"> 
+    <div class="allign-items-center" id="homeSec">
+      <!-- <div class="row"> -->
+        <!-- <div class="col"> -->
+          <img class="d-block d-lg-none" src="assets/imgs/wallp.jpg">
+          <video class="d-none d-lg-block" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+            <source src="assets/imgs/boat.mp4" type="video/mp4">
+          </video>
+        <!-- </div> -->
+      <!-- </div> -->
+    </div>  
+        <div class="open-overlay position-fixed">
+			<div class="logo_menu">
+				<a href="index.html"><img class="logo" src="assets/imgs/logo.png"></a>         
+			</div>
+      <span class="bar-top"></span>
+      <span class="bar-middle"></span>
+      <span class="bar-bottom"></span>
+    </div>     
+  </section>
+
+  <hr>
+
+  <section class="everySection" id="fAbout">
+    <div class=" d-block d-lg-none">
+      <div class="marg position-absolute ">
+        <h6 class="text-uppercase d-block d-lg-none abHead bC mov"><br>γνωριμια</h6>
+      </div>
+    </div> 
+    <div class="myImg" id="aboutSec">
+      <!-- <h2>Bubba</h2> -->
+      <div class="grid">
+
+        <a class="pageTrip" id="clickAbout" href="aboutUs.html" onclick="delayUrlLoad('aboutUs.html', 2500);return false;">
+
+          <img class="" id="imAb" src="assets/imgs/aboutUs.jpg" alt="img02"/>
+          
+            <!-- <h2>Ποιοι <span> Ειμαστε</span></h2> -->
+            <div class="container-fluid">
+              <div class="z row">
+                <div class="col-8">
+                  <h2>ποιοι <span>ειμαστε</span></h2>
+                </div>
+              </div>
+
+            <div class="z row">
+              <div class="col-md-9 d-none d-md-block mb-5">
+                <p class="">Καλώς ήρθατε στο ταξίδι που γίνεται σε ένα βιωματικό σχολείο.</p>
+              </div>
+            </div>  
+          </div>
+        </a>
+      </div>
+    </div>      
+  </section>
+
+  <hr class="mt-5">
+
+    <section class="everySection" id="fPrior"> 
+    <div class=" d-block d-lg-none">
+      <div class="position-absolute marg">
+        <h6 class=" text-uppercase d-block d-lg-none prHead bC mov"><br>προτεραιοτητεσ</h6>
+      </div>
+    </div> 
+    <div class="myImg" id="priorSec">
+      <!-- <h2>Bubba</h2> -->
+      <div class="grid">
+        <a class="pageTrip" id="clickPrior" href="prior.html" onclick="delayUrlLoad('prior.html', 2500);return false;">
+          <img class="tr" id="imPr" src="assets/imgs/prior.jpg" alt="img02"/>
+            <!-- <h2>Ποιοι <span> Ειμαστε</span></h2> -->
+            <div class="container-fluid">
+              <div class="z row">
+                <div class="col-8 ml-5">
+                  <h2>οι <span>προτεραιοτητες</span> μας</h2>
+                </div>
+              </div>
+
+              <div class="z row">
+                <div class="col-md-9 d-none d-md-block">
+                 <p class="">Το κέντρο της προσοχής των ανθρώπων του σχολείου είναι μόνον οι μαθητές!</p>
+               </div>
+            </div>  
+          </div>
+        </a>
+      </div>
+    </div>      
+  </section>
+
+  <hr>
+
+  <section class="everySection" id="fMeth"> 
+    <div class=" d-block d-lg-none">
+      <div class="position-absolute marg">
+        <h6 class=" text-uppercase d-block d-lg-none methHead bC mov"><br>Μεθοδολογια</h6>
+      </div>
+    </div>
+    <div class="myImg" id="methSec">
+      <!-- <h2>Bubba</h2> -->
+      <div class="grid">
+        <a class="pageTrip" id="clickMeth" href="methodology.html" onclick="delayUrlLoad('methodology.html', 2500);return false;">
+          <img class="tr" id="imM" src="assets/imgs/method.jpg" alt="img02"/>
+            <!-- <h2>Ποιοι <span> Ειμαστε</span></h2> -->
+            <div class="container-fluid">
+              <div class="z row">
+                <div class="col-8 ml-2">
+                  <h2>H <span>μεθοδος</span> μας</h2>
+                </div>
+              </div>
+
+            <div class="z row">
+              <div class="col-md-9 d-none d-md-block">
+                <p class="">Καθώς έχουμε δημιουργήσει ειδικές συνθήκες και υπηρεσίες τα μαθήματα μας ανταποκρίνονται  με ευελιξία στις ανάγκες  όλων των ηλικιών.</p>
+              </div>
+            </div>  
+          </div>
+        </a>
+      </div>
+    </div>      
+  </section>
+
+  <hr>
+  <section class="everySection" id="fLang"> 
+    <div class=" d-block d-lg-none">
+      <div class="position-absolute marg">
+        <h6 class=" text-uppercase d-block d-lg-none tmHead bC mov"><br>ΤΜΗΜΑΤΑ</h6>
+      </div>
+    </div>  
+    <div class="myImg" id="langSec">
+      <!-- <h1>ΓΛΩΣΣΕΣ & ΤΜΗΜΑΤΑ</h1> -->
+      <div class="grid z">
+          <a class="pageTrip" id="clickLang" href="tmimata.html"onclick="delayUrlLoad('tmimata.html', 2500);return false;">  
+            <img class="tr" id="imLg" src="assets/imgs/tmim.jpg" alt="img02"/>
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-8">
+                  <h2>ταξεισ</h2>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-9 d-none d-md-block ">
+                  <p class="">ΔΙΑΔΡΑΣΗ: ένα σχολείο για όλους,
+                    με εγγραφές όλο το χρόνο και μεγάλη ευελιξία στο πρόγραμμα.
+                 </p>
+                </div>
+              </div>
+            </div>
+          </a>
+      </div>
+    </div>      
+  </section>
+
+  <hr>
+  <section class="everySection" id="fEdu"> 
+    <div class=" d-block d-lg-none">
+      <div class="position-absolute marg">
+        <h6 class=" text-uppercase d-block d-lg-none eduHead bC mov"><br>ΕΚΠΑΙΔΕΥΣΗ</h6>
+      </div>
+    </div>     
+    <div class="myImg" id="eduSec">
+      <!-- <h1>ΕΚΠΑΙΔΕΥΣΗ</h1> -->
+      <div class="grid z">
+         <a class="pageTrip" id="clickEdu" href="edu.html"onclick="delayUrlLoad('edu.html', 2500);return false;">
+          <img class="tr" id="imEd" src="assets/imgs/edu.jpg" alt="img02"/>
+          <div class="container-fluid">  
+            <div class="row">
+                <div class="col-8 ml-3">
+                  <h2>ΕΚΠΑΙΔΕΥΤΙΚΑ  <span>ΕΡΓΑΣΤΗΡΙΑ</span></h2>
+                </div>
+            </div>
+
+          <!-- <div class="col-md-9 d-none d-md-block">
+             <p class="">Το σχολείο μας συνεργάζεται με ειδικούς  στον τομέα της επικοινωνίας και ψυχολογίας για τη συναισθηματική και  κοινωνική ανάπτυξη των μαθητών και τη δημιουργία ασφαλούς κλίματος ανάμεσα στο σχολείο και την οικογένεια.</p>
+             </div> -->
+          </div>
+         </a>
+      </div>
+    </div>      
+  </section>
+
+  <hr>
+  <section class="everySection" id="fProj"> 
+    <div class=" d-block d-lg-none">
+      <div class="position-absolute marg">
+        <h6 class=" text-uppercase d-block d-lg-none neaHead bC"><br>νεα</h6>
+      </div>
+    </div>  
+    <div class="myImg " id="projSec">
+      <!-- <h1>ΝΕΑ - PROJECTS</h1> -->
+      <div class="grid z">
+        <a class="pageTrip" id="clickProj" href="nea.html"onclick="delayUrlLoad('nea.html', 2500);return false;">
+          <img class="tr" id="imPj" src="assets/imgs/proj.jpg" alt="img02"/>
+          <div class="container-fluid">
+            <div class="row">
+                <div class="col-8 ml-5">
+                  <h2>ενημερωση <span>&</span> PROJECT</h2>
+                </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-9 d-none d-md-block ">
+                <p class="">Πάντα κάτι συμβαίνει στη ΔΙΑΔΡΑΣΗ</p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>      
+  </section>
+
+
+
+  <hr>
+  <!-- <section id="fLove"></section> -->
+    <section class="everySection z my-5" id="fLove"> 
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-12">
+         <div class="slider">
+          <div class="slide_viewer">
+           <div class="slide_group">
+             <div class="slide">
+              <p>"Ο γιός μου βαριέται εύκολα ειδικά στο μάθημα των αγγλικών. Από τότε που ερχόμαστε σε σας συνεχώς μου λέει ότι δεν καταλαβαίνει πόσο γρήγορα περνά η ώρα.
+              Τα δε διαδικτυακά μαθήματα τον ενθουσίασαν! <br><br>Δεν πίστευα αυτό που άκουγα! Πώς αλλάζουν τα πράγματα!!!"
+              <br>
+              <br>
+              <h4><i class="fas fa-female"></i>  Σ.Ζ. Μητέρα εφήβου</h4> 
+              </p>
+             </div>
+             <div class="slide bigT">
+              <p>"Συγχαρητήρια στους μαθητές, συγχαρητήρια και στις καθηγήτριες!!! Συγχαρητήρια για τη συνεργασία μεταξύ τους!!! Ευχαριστώ πολύ ως γονέας που βοηθήσατε το παιδάκι μου σε αυτήν την επιτυχία!!! Εύχομαι να είναι αφορμή και για πολλές ακόμη... <br><br>Ευχαριστώ πολύ και προσωπικά , σαν γονέας , για τη συνεργασία που είχατε και μαζί μου!!"
+              <br>
+              <br>
+              <h4><i class="fas fa-female"></i>  Σταυρούλα Γονέας</h4> 
+              </p>
+             </div>
+             <div class="slide rbigT">
+              <p>"Φέτος είναι η 9η χρονιά μου στη Διάδραση. Είμαι λυπημένη που είναι η τελευταία μου χρονιά επειδή έχω αξέχαστες αναμνήσεις .Τα προηγούμενα 8 χρόνια ήταν  ένα υπέροχο ταξίδι ,με πολλούς καινούριους φίλους και καταπληκτική αγγλική εκπαίδευση. Όλες οι καθηγήτριες σε όλα τα επίπεδα ήταν πρόθυμες να μας βοηθήσουν όσο χρειαστεί μέχρι να βεβαιωθούν ότι καταλάβαμε σε βάθος τη νέα γνώση. Φρόντιζαν όλοι οι μαθητές να συμμετέχουν στο μάθημα. <br><br>Όλοι στη Διάδραση είναι φιλόξενοι και αμέσως νιώθεις ότι είσαι η προτεραιότητα τους."
+              <br>
+              <br>
+              <h4><i class="fas fa-female"></i> Μ.Π. Μαθήτρια</h4> 
+              </p>
+              </div>
+              <div class="slide bigT">
+                <p>"Προσωπικά πιστεύω ότι οι εξαιρετικά καταρτισμένες καθηγήτριες της Διάδρασης  απλοποιήσαν όλες τις δυσκολίες που μπορεί να σου δημιουργήσει η εκμάθηση μιας ξένης γλώσσας, κάνοντας  το μάθημα μια απολαυστική διαδικασία.
+                Η εμπειρία μου ήταν μοναδική ,χάρη στις καταπληκτικές μου καθηγήτριες. Στη Διάδραση όλοι είναι αποδεκτοί για αυτό που είναι χωρίς καμία ταπεινωτική κριτική.<br><br> Το συνιστώ 100% για όποιον θέλει να μάθει Αγγλικά ή Γερμανικά!"
+              <br>
+              <br>
+              <h4><i class="fas fa-female"></i>  Ε.Π.Μαθήτρια</h4> 
+              </p>
+              </div>
+              <div class="slide">
+                <p>"Αυτό που έχω καταλάβει, τόσα χρόνια στο φροντιστήριο, είναι πως όλοι εκεί σε βοηθούν να πετύχεις τους στόχους σου. Επίσης, αν χρειάζεσαι βελτίωση κάπου, οι καθηγητές είναι διατεθειμένοι να αφιερώσουν έξτρα ώρες  για να σε βοηθησουν να βελτιωθείς."
+              <br>
+              <br>
+              <h4><i class="fas fa-male"></i>  Χ.Γ. Μαθητής</h4> 
+              </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide_buttons">
+        </div>
+
+        <div class="directional_nav">
+          <div class="previous_btn" title="Previous">
+            <svg  viewBox="-11 -11.5 65 66">
+              <path fill="#474544" class="d-none d-md-block" d="M-10.5,22.118C-10.5,4.132,4.133-10.5,22.118-10.5S54.736,4.132,54.736,22.118
+              c0,17.985-14.633,32.618-32.618,32.618S-10.5,40.103-10.5,22.118z M-8.288,22.118c0,16.766,13.639,30.406,30.406,30.406 c16.765,0,30.405-13.641,30.405-30.406c0-16.766-13.641-30.406-30.405-30.406C5.35-8.288-8.288,5.352-8.288,22.118z"/>
+              <path fill="#474544" d="M25.43,33.243L14.628,22.429c-0.433-0.432-0.433-1.132,0-1.564L25.43,10.051c0.432-0.432,1.132-0.432,1.563,0 c0.431,0.431,0.431,1.132,0,1.564L16.972,21.647l10.021,10.035c0.432,0.433,0.432,1.134,0,1.564  c-0.215,0.218-0.498,0.323-0.78,0.323C25.929,33.569,25.646,33.464,25.43,33.243z"/>
+            </svg>
+          </div>
+          <div class="next_btn" title="Next">
+            <svg  viewBox="-11 -11.5 65 66">
+             <path fill="#474544" class="d-none d-md-block" d="M22.118,54.736C4.132,54.736-10.5,40.103-10.5,22.118C-10.5,4.132,4.132-10.5,22.118-10.5  c17.985,0,32.618,14.632,32.618,32.618C54.736,40.103,40.103,54.736,22.118,54.736z M22.118-8.288  c-16.765,0-30.406,13.64-30.406,30.406c0,16.766,13.641,30.406,30.406,30.406c16.768,0,30.406-13.641,30.406-30.406 C52.524,5.352,38.885-8.288,22.118-8.288z"/>
+              <path fill="#474544" d="M18.022,33.569c 0.282,0-0.566-0.105-0.781-0.323c-0.432-0.431-0.432-1.132,0-1.564l10.022-10.035      L17.241,11.615c 0.431-0.432-0.431-1.133,0-1.564c0.432-0.432,1.132-0.432,1.564,0l10.803,10.814c0.433,0.432,0.433,1.132,0,1.564     L18.805,33.243C18.59,33.464,18.306,33.569,18.022,33.569z"/>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    <hr>
+
+  <section id="contact" class="contactSection">
+    <div class="z container-fluid">
+      <div class="row ">
+
+        <div class="col-md-12 col-lg-5">
+          <ul>
+            <li class="noBullets"><h2>Επικοινωνήστε μαζί μας</h2></li>
+            <li class="noBullets"><a href="tel:+302382028870"><i class="fas fa-phone mr-1"></i>23820 28 870</a></li>
+            <li class="noBullets"><a href="mailto: diadrasi.taiganidou@gmail.com"><i class="fas fa-at mr-1"></i>diadrasi.taiganidou@gmail.com </a></li>
+            <li class="noBullets">
+            <a href="https://www.facebook.com/diadrasitaiganidou" target="_blank"><i class="fab fa-facebook mr-2"></i></a> 
+            <a href="https://www.instagram.com/diadrasi_taiganidou_languages/" target="_blank"><i class="fab fa-instagram mr-2"></i></a>
+            <a href="https://www.linkedin.com/in/sophia-taiganidou-64090b41/?originalSubdomain=gr" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            </li>
+          </ul>   
+        </div>
+
+          
+        <div class="col-md-12 col-lg-5">
+          <ul>
+            <li class="noBullets"> <h2>Βρείτε μας εδώ</h2> </li>
+            <li class="noBullets"><p class="">Ελευθερίου 190 Γιαννιτσά</p></li>
+            <li class="noBullets"><iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3020.658371096766!2d22.412107765269994!3d40.79152412932329!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1357cff1f9df0e29%3A0x7b3af21dd0852c60!2sEl.%20Venizelou%20190%2C%20Giannitsa%20581%2000!5e0!3m2!1sen!2sgr!4v1593431569203!5m2!1sen!2sgr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+    <section class="linkSection" id="fLink"> 
+
+    </section>
+
+    <div class="fb-customerchat"
+                attribution=setup_tool
+                page_id="485818704764862"
+                theme_color="#0084ff"
+                logged_in_greeting="Γειά σας, πως θα μπορούσα να σας εξυπηρετήσω;"
+                logged_out_greeting="Γειά σας, πως θα μπορούσα να σας εξυπηρετήσω;">
+    </div>
+    
+    <script type="text/javascript" src="https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js."></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script type="text/javascript" src="assets/js/h2mov.js"></script>
+    <script type="text/javascript" src="assets/js/lettersMov.js"></script>
+
+    <script src="jQuery-inView.min.js"></script>
+
+    <script type="text/javascript" src="https://unpkg.com/in-view@0.6.1/dist/in-view.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.ui.min.js"></script>
+    <script type="text/javascript" src="assets/js/menu.js"></script>
+
+    <script type="text/javascript" src="https://unpkg.com/in-view@0.6.1/dist/in-view.min.js"></script>
+    <script type="text/javascript" src="assets/js/fb.js"></script>
+    <script type="text/javascript" src="assets/js/fullScreen.js"></script>
+    <!-- <script type="text/javascript" src="assets/js/OInav.js"></script> -->
+    <script type="text/javascript" src="assets/js/h1scroll.js"></script>
+    <script type="text/javascript" src="assets/js/loadUrl.js"></script>
+    <script src="/path/to/lib/jquery.waypoints.min.js"></script>
+    <script src="/path/to/shortcuts/inview.min.js"></script>  
+    <script type="text/javascript" src="assets/js/coolslides.js"></script>
+	<script type="text/javascript" src="assets/js/equalWeb.js.js"></script>
+
+
+    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> -->
+    <!-- <script type="text/javascript" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2542/in-view.min.js"></script> -->
+    
+  </body>
+</html>
